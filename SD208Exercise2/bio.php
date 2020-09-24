@@ -10,7 +10,7 @@
 </head>
 <style>
 body{
-    background-image: url('unnamed.jpg');
+    background-image: url('./images/unnamed.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
