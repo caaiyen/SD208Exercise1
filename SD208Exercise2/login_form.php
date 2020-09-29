@@ -13,7 +13,7 @@
         grid-template-columns: auto 97%auto auto;
         grid-gap: 10px;
         padding: 10px;
-        background-image: url('unnamed.jpg');
+        background-image: url('./images/unnamed.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 10%;
