@@ -64,7 +64,7 @@
         }
     
         #address 
-        echo "<p class='correct'>" . $address  . "<br>  </p>" ;
+        echo "<p class='correct'> Your adress is " . $address  . "<br>  </p>" ;
     
         #email 
         $emailpattern = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i";
