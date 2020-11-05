@@ -11,7 +11,7 @@
         }
         print_r($_POST);
     if (isset($_POST['updateUSer'])){
-        print_r($_POST);
+        
         $lname = $_POST['lastname'];
         $id = $_POST['ids'];
         $sql = "UPDATE `user` set `lastname` = '$lname' where `user_id`= " . $id;
