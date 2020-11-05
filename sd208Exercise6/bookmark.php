@@ -1,13 +1,15 @@
 <?php
     session_start();
 ?>
+
+
 <?php
     $bookmarks = (isset($_SESSION['bookm'])) ? $_SESSION['bookm'] : array();
     if(isset($_POST['add'])){
-
+        if(!empty($_POST['bookmark']) and !empty($_POST['url'])){
         array_push($bookmarks, [$_POST['bookmark'],$_POST['url']]);
         $_SESSION['bookm'] = $bookmarks;
-       
+        }
 
     }
 
@@ -17,6 +19,8 @@
     if (isset($_POST['x'])){
         array_splice($_SESSION['bookm'], $_POST['id'],1);
     }
+
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
